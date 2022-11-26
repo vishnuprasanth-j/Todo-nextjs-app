@@ -1,0 +1,64 @@
+.loginpage{
+  color: white;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    text{text-align: center;
+        font-size: 35px;
+        flex-basis: 100%;
+        flex-grow: 1;
+            }
+  
+.loginDiv{
+    flex-basis: 100%;
+    text-align: center;
+    padding-top: 10px;
+        flex-grow: 1;
+        
+      .googleLOGIN{
+       width: 200px;
+       height: 60px;
+       border: solid white;
+       .textinbtn{
+        font-size:20px;
+        color: white;
+       }
+       &:hover{
+        cursor: pointer;
+       }
+    }
+
+}
+}
+
+
+
+
+@media screen and (min-width:1300px) {
+  .loginpage{
+    margin: 100px 40%;
+    
+  }
+}
+
+@media screen and (max-width:365px) {
+  .loginpage{
+    .loginDiv{
+      .googleLOGIN{
+        width: 100px;
+        height: 100px;
+        font-family: 'Source Code Pro', monospace;
+        border-radius: 20px;
+       
+        .textinbtn{
+        display: none;
+        }
+    
+     }
+    }
+    
+  }
+}
+
